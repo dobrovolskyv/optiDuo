@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap&_v=20230426004905"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230426004905" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="header__top-inner flex">
+                <img class="header__logo" src="img/logo.svg" alt="logo">
+                <div class="menu__desktop">
+                    <nav class="menu">
+                        <ul class="menu__list flex">
+                            <li class="menu__item"><a href="#" class="menu__link">Комплекс для зрения </a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Компоненты </a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Офтальмологи о комплексе </a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Способ применения</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu__mobile">
+                    <div class="menu__burger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <nav class="menu">
+                        <ul class="menu__list flex">
+                            <li class="menu__item"><a href="#" class="menu__link">Комплекс для зрения </a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Компоненты </a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Офтальмологи о комплексе </a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Способ применения</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__bot">
+                <div class="header__left">
+                    <div class="header__description flex">
+                        <img class="header__img-star" src="img/star.svg" alt="star">
+                        <p class="header__description-text">Одобрен <span class="header__description-span">практикующими
+                                офтальмологами России</span></p>
+                    </div>
+                    <h1 class="header__title">Комплекс <br />
+                        для зрения с <span>АЛОЭ</span></h1>
+                    <p class="undertitle header__undertitle">Интенсивная поддержкаG зрения Хорошее зрение возможно без
+                        операции</p>
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <<img src="img/done.png" alt="">
+                                <p>Cпособствует повышению остроты зрения</p>
+                        </li>
+                        <li class="header__item">
+                            <img src="img/done.png" alt="">
+                            <p>Укрепляет капилляры и стенки сосудов</p>
+                        </li>
+                        <li class="header__item">
+                            <img src="img/done.png" alt="">
+                            <p>Увлажняет склеру при синдроме сухого глаза</p>
+                        </li>
+                        <li class="header__item">
+                            <img src="img/done.png" alt="">
+                            <p>Противостоит помутнению хрусталика</p>
+                        </li>
+                        <li class="header__item">
+                            <img src="img/done.png" alt="">
+                            <p>Показан для комплексного лечения вирусных и бактериальных коньюктивитов</p>
+                        </li>
+                        <li class="header__item">
+                            <img src="img/done.png" alt="">
+                            <p>Подходит для профилактикии и борьбы с офтальмологическими недугами</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__right">
+                    <img class="header__img-prod" src="img/product.png" alt="product">
+                    <img class="header__img-eye" src="img/header_eye.png" alt="eye">
+                    <form class="form" action="#">
+                        <p class="form__text">Оставьте заявку, чтобы получить <span class="form__span">консультацию
+                                врача офтальмолога </span></p>
+                        <select class="form__select" name="" id="" placeholder="Страна">
+
+                        </select>
+                        <input class="form__input" type="text" placeholder="Ваше имя">
+                        <input class="form__input" type="tel" placeholder="Ваш номер телефоны">
+                        <button class="form__btn">Отправить</button>
+                        <p class="form__quantity">На (вчерашняя дата)<br>осталось 23 комплекса</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="why">
+            <div class="container">
+                <div class="why__inner">
+                    <div class="why__left">
+                        <img class="why__left-img" src="img/why_girl.png" alt="girl">
+                    </div>
+                    <div class="why__right">
+                        <h2 class="title">Почему снижается острота зрения?</h2>
+                        <p>Нарушения зрения есть почти у каждого второго жителя нашей страны. После 40 лет зрение резко
+                            падает, это невозможно не заметить. Огромную роль играет повсеместное увлечение электронными
+                            девайсами. Не отрывая глаз по 10 часов в сутки от экрана компьютера или мобильных устройств,
+                            невозможно иметь хорошее зрение. </p>
+                        <p>Производители стараются делать экраны с менее ярким и агрессивным воздействием на зрение, но
+                            достичь абсолютно безопасного пока не представляется возможным. Более позитивная новость,
+                            есть способы предотвратить потерю и поддержать здоровье глаз. Не допустить дальнейшего
+                            развития ухудшения ситуации можно без хирургического вмешательства. </p>
+                        <p>Зрение сложно восстановить, поэтому поддержка лучшее, что вы можете сделать для важнейшего
+                            органа чувств.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="alarm">
+            <div class="container">
+                <h2 class="title">Когда бить тревогу?</h2>
+                <p class="undertitle">Симптомы-предвестники утраты зрения</p>
+                <div class="alarm__inner">
+                    <div class="alarm__contentbox">
+                        <img class="alarm__img" src="img/symptoms_1.svg" alt="alarm">
+                        <p class="alarm__text">Плохо видите
+                            вблизи или вдали</p>
+                    </div>
+                    <div class="alarm__contentbox">
+                        <img class="alarm__img" src="img/symptoms_2.svg" alt="alarm">
+                        <p class="alarm__text">Красные глаза, с ощущением песка</p>
+                    </div>
+                    <div class="alarm__contentbox">
+                        <img class="alarm__img" src="img/symptoms_3.svg" alt="alarm">
+                        <p class="alarm__text">Вспышки, мушки, нити и другие помехи</p>
+                    </div>
+                    <div class="alarm__contentbox">
+                        <img class="alarm__img" src="img/symptoms_4.svg" alt="alarm">
+                        <p class="alarm__text">Простреливание и боль</p>
+                    </div>
+                    <div class="alarm__contentbox">
+                        <img class="alarm__img" src="img/symptoms_5.svg" alt="alarm">
+                        <p class="alarm__text">Пощипывание и слезотечение</p>
+                    </div>
+                    <div class="alarm__contentbox">
+                        <img class="alarm__img" src="img/symptoms_6.svg" alt="alarm">
+                        <p class="alarm__text">Свето-чувствительность</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ways">
+            <div class="container">
+                <h2 class="title">Способы поддержки остроты зрения</h2>
+                <p class="subtitle">Какие методы являются рабочими, давайте разбираться</p>
+                <div class="ways__inner">
+                    <div class="ways__contentbox">
+                        <div class="ways__text">
+                            <h3 class="title">Гимнастика для глаз</h3>
+                            <p class="ways__descr">Особенно хороша в перерывах между монотонной работой и за экраном
+                                компьютера. Способна помочь снять усталость – отвлекаясь на время от цикличной работы,
+                                вы можете отдохнуть, восстановить кровообращение в глазах, укрепить глазные мышцы.
+                                Попеременная фиксация вблизи - вдаль тренерует остроту.</p>
+                        </div>
+                        <img class="ways__img" src="img/ways_1.png" alt="girl">
+                        <img class="ways__img-mobile" src="img/ways_mobile_1.png" alt="girl">
+                    </div>
+                    <div class="ways__contentbox">
+                        <div class="ways__text">
+                            <h3 class="title">Питание</h3>
+                            <p class="ways__descr">Уже давно известно, что существуют продукты способные поддержать
+                                остроту зрения. К ним относят: яйца, брокколи, белокочанная капуста и другие зеленые
+                                листовые овощи — продукты с лютеином. Лютеин - это каротиноид, который есть в составе
+                                сетчатки. Регулярное употребление продуктов с лютеином для глаз, очень полезно, так как
+                                восполняет дефицит собственного лютеина.</p>
+                        </div>
+                        <img class="ways__img" src="img/ways2.png" alt="food">
+                        <img class="ways__img-mobile" src="img/ways_mobile_2.png" alt="girl">
+                    </div>
+                    <div class="ways__contentbox">
+                        <div class="ways__text">
+                            <h3 class="title">Таурин (2-​амино-этансульфоновая кислота)</h3>
+                            <p class="ways__descr">Таурин, это кислота, предотвращает возрастную дегенерацию сетчатки.
+                                Используется в разных областях медицины, например в лечении гипертонии. Имеет широкий
+                                спект лечения глазных заболеваний, особенно хорошо себя проявил в борьбе с катарактой,
+                                снятии синдрома сухого глаза, укрепления сосудов при их ломкости. Помогает предотварить
+                                возрастные изменения глазного дна.</p>
+                        </div>
+                        <img class="ways__img" src="img/ways3.png" alt="">
+                        <img class="ways__img-mobile" src="img/ways_mobile_3.png" alt="girl">
+                    </div>
+                    <div class="ways__contentbox">
+                        <div class="ways__text">
+                            <h3 class="title ways__title-doctor">Хирургическое вмешательство</h3>
+                            <p class="ways__descr ways__doctor">Операция может решить и закрыть вопрос с падением зрения
+                                раз и навсегда. Микрохирургия шагнула далеко, коррекция зрения стала не новостью, но
+                                дороговизна операции по карману не каждому. Послеоперационная адаптация, с процедурами
+                                уколов в глаза, пугает людей. Людям с гипертонией и сахарным диабетом и во все
+                                противопоказана и опасна.</p>
+                        </div>
+                        <img class="ways__img" src="img/ways4.png" alt="doctors">
+                        <img class="ways__img-mobile" src="img/ways_mobile_4.png" alt="girl">
+                    </div>
+                    <div class="ways__contentbox">
+                        <div class="ways__text">
+                            <h3 class="title">Комплекс для зрения с АЛОЭ</h3>
+                            <p class="ways__descr">Неспроста называется комплексом, решает несколько недугов вызывающих
+                                снижение зрения. Борется с микробами и инфекциями, вызывающими коньюктивиты. Улучшает
+                                остроту зрения, за счет таурина в составе, эффективен при ирите, помутнении стекловиного
+                                тела, блефарите, кератите миопическом хореоретините. Имея широкий профиль применения,
+                                используется в профилактических, так и в лечебных целях. В комплекс входят 4 сильнейших
+                                компонента, оказывающих благотворное влияние на зрительнй орган. При взаимодействии друг
+                                с другом способны восстановить зрительную функцию до первозданного вида и поддержать
+                                зрение в любом возрасте.</p>
+                        </div>
+                        <img class="ways__img" src="img/ways5.png" alt="prodc">
+                        <img class="ways__img-mobile" src="img/ways_mobile_5.png" alt="girl">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product">
+            <div class="container">
+                <div class="product__inner flex">
+                    <div class="product__left">
+                        <div class="product__contentbox">
+                            <div class="product__contentbox-top">
+                                <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                <h3 class="title product__name">Таурин</h3>
+                            </div>
+                            <p class="product__text">Родная нашему организму аминокислота, недостаток таурина является
+                                виновником катаракты в хрусталике и роговице. Улучшает микроциркуляцию крови в сосудах,
+                                что способствует улучшению зрения.</p>
+                        </div>
+                        <div class="product__contentbox">
+                            <div class="product__contentbox-top">
+                                <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                <h3 class="title product__name">Экстракт алоэ</h3>
+                            </div>
+                            <p class="product__text">Снимает усталость, борется с синдромом сухого глаза. Особенно
+                                подавляет жизнедеятельность вирусов и микробов, что эффективно в борьбе с
+                                коньюктивитами. Натуральный стимулятор, смазывает, заживляет слизистую.</p>
+                        </div>
+                    </div>
+                    <img class="product__img" src="img/product_2.png" alt="prod">
+                    <div class="product__right">
+                        <div class="product__contentbox">
+                            <div class="product__contentbox-top">
+                                <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                <h3 class="title product__name">Экстракт черники</h3>
+                            </div>
+                            <p class="product__text">Многие витамины для глаз содержат экстракт черники не просто так.
+                                Черника улучшает обменные процессы в глазу, способствует капилярному кровообращению.
+                                Контролирует глазное давление. Противостоит возрастным изменениям склеры.</p>
+                        </div>
+                        <div class="product__contentbox">
+                            <div class="product__contentbox-top">
+                                <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                <h3 class="title product__name">Коллоидное серебро</h3>
+                            </div>
+                            <p class="product__text">Как и алоэ имеет антисептическое действие, “стерилизует”, увлажняет
+                                глаза и укрепляет местный иммунитет.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="product__mobile">
+            <div class="container">
+                <img class="product__mobile-img" src="img/product_2.png" alt="prod">
+                <div class="product__inner-mobile">
+                    <div class="swiper product__swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="product__contentbox">
+                                    <div class="product__contentbox-top">
+                                        <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                        <h3 class="title product__name">Таурин</h3>
+                                    </div>
+                                    <p class="product__text">Родная нашему организму аминокислота, недостаток таурина
+                                        является виновником катаракты в хрусталике и роговице. Улучшает микроциркуляцию
+                                        крови в сосудах, что способствует улучшению зрения.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__contentbox">
+                                    <div class="product__contentbox-top">
+                                        <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                        <h3 class="title product__name">Экстракт алоэ</h3>
+                                    </div>
+                                    <p class="product__text">Снимает усталость, борется с синдромом сухого глаза.
+                                        Особенно подавляет жизнедеятельность вирусов и микробов, что эффективно в борьбе
+                                        с коньюктивитами. Натуральный стимулятор, смазывает, заживляет слизистую.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__contentbox">
+                                    <div class="product__contentbox-top">
+                                        <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                        <h3 class="title product__name">Экстракт черники</h3>
+                                    </div>
+                                    <p class="product__text">Многие витамины для глаз содержат экстракт черники не
+                                        просто так. Черника улучшает обменные процессы в глазу, способствует капилярному
+                                        кровообращению. Контролирует глазное давление. Противостоит возрастным
+                                        изменениям склеры.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product__contentbox">
+                                    <div class="product__contentbox-top">
+                                        <img class="product__img-plus" src="img/plus.svg" alt="plus">
+                                        <h3 class="title product__name">Коллоидное серебро</h3>
+                                    </div>
+                                    <p class="product__text">Как и алоэ имеет антисептическое действие, “стерилизует”,
+                                        увлажняет глаза и укрепляет местный иммунитет.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <img class="arrow__prod-prev" src="img/arrow.svg" alt="arrow">
+                        <img class="arrow__prod-next" src="img/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="complex">
+            <div class="container">
+                <div class="complex__inner flex">
+                    <div class="complex__left">
+                        <img class="complex__img" src="img/complex_eye.png" alt="eye">
+                        <img class="complex__img-mobile" src="img/complex_mobile-eye.png" alt="eye">
+                    </div>
+                </div>
+                <div class="complex__right">
+                    <h2 class="title">Комплекс для
+                        зрения с АЛОЭ</h2>
+                    <p class="complex__span">Капли с широким профилем действия:</p>
+                    <ul class="complex__list">
+                        <li class="complex__item">
+                            <img src="img/done.png" alt="">
+                            <p>Устраняют усталость глаз, снимают напряжение в результате повышенной нагрузки на зрение;
+                            </p>
+                        </li>
+                        <li class="complex__item">
+                            <img src="img/done.png" alt="">
+                            <p>Улучшают зрение в сумерках, а также снижают светобоязнь;</p>
+                        </li>
+                        <li class="complex__item">
+                            <img src="img/done.png" alt="">
+                            <p>Борятся с возбудителями вирусно и бактериальной инфекций, снижают продолжительность
+                                воспалительного процесса;</p>
+                        </li>
+                        <li class="complex__item">
+                            <img src="img/done.png" alt="">
+                            <p>Предотвращают помутнение хрусталика, укрепляют каппиляры, тонизируют сосуды;</p>
+                        </li>
+                        <li class="complex__item">
+                            <img src="img/done.png" alt="">
+                            <p>Снижают вероятность возникновения глаукомы и катаракты;</p>
+                        </li>
+                        <li class="complex__item">
+                            <img src="img/done.png" alt="">
+                            <p>Увлажняют, снимают напряжение и улучшают микроциркуляцию крови.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="doctor">
+            <div class="container">
+                <div class="doctor__inner">
+
+                    <div class="doctor__left">
+                        <h2 class="title doctor__title">Офтальмолог рекомендует Комлекс для зрения с АЛОЭ</h2>
+                        <p class="doctor__name">Рогачев Дмитрий Леонидович</p>
+                        <p class="doctor__subname">Врач офтальмолог высшей категории</p>
+                        <p class="doctor__descr">“Невозможно не заметить снижение остроты зрения, и лучше не откладывать
+                            проблему в дальний ящик. Зрение может само восстановится, но это лишь предвестник
+                            начинающейся катаракты, первая стадия помутнения хрусталика, когда происходит увеличение его
+                            объема, дающее временную иллюзию улучшения зрения. Поэтому надеяться на самопроизвольное
+                            восстановление я крайне не рекомендую. Я дам несколько рекомендаций, которые помогут
+                            сохранить остроту зрения. Большую роль в профилактике занимает гимнастика глаз. Она
+                            расслабляет глаза и улучшает кровообращение. Для того, чтобы сохранить зрение, нужно
+                            постараться обеспечить своё рабочее место хорошим освещением, укреплять здоровье, а также
+                            научиться давать глазам отдыхать и расслабляться. </p>
+                        <p class="doctor__descr">Если от вышеперечисленных способов не происходит улучшений, я выписываю
+                            пациентам Комплекс для зрения с Алоэ. Почему именно он? В комплексе содержатся все самые
+                            необходимые компоненты, которые борятся с широким спектром первопричин снижения остроты
+                            зрения: инфекции, бактерии, синдром сухого глаза, внутриглазное давление, изменения
+                            хрусталика и стекловидного тела. За курс нам удается достичь комфортного уровня зрения без
+                            очков и линз.”</p>
+                    </div>
+                    <div class="doctor__right">
+                        <h2 class="title doctor__title-mobile">Офтальмолог рекомендует Комлекс для зрения с АЛОЭ</h2>
+                        <img class="doctor__left-img" src="img/doctor.png" alt="girl">
+                        <img class="doctor__mobile-img" src="img/doctor_mobile.png" alt="girl">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="ingredients">
+            <div class="container">
+                <h2 class="title">Способ применения средства и химический состав</h2>
+                <p class="undertitle">Противопоказания: индивидуальная непереносимость компонентов</p>
+                <div class="ingredients__inner flex">
+                    <div class="ingredients__contetnbox">
+                        <div class="ingredients__img-wrapper">
+                            <img class="ingredients__img" src="img/ingredients_1.svg" alt="dose">
+                        </div>
+                        <h3 class="title ingredients__title">Способ применения</h3>
+                        <p class="ingredients__text">Дозировка (для детей старше 12 лет и взрослых) составляет 2 капли 3
+                            раза в день, курсом 2-3 месяца. По необходимости повторить курс.</p>
+                    </div>
+                    <div class="ingredients__contetnbox">
+                        <div class="ingredients__img-wrapper">
+                            <img class="ingredients__img" src="img/ingredients_2.svg" alt="bottle">
+                        </div>
+                        <h3 class="title ingredients__title">Химический состав</h3>
+                        <p class="ingredients__text">Вода очищенная - 96,4%, Экстракт алоэ - 0,5%, Коллоидное серебро -
+                            2%, Экстракт черники-0,1%, Таурин -1%.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews">
+            <div class="container">
+                <div class="reviews__inner">
+                    <h2 class="title">Отзывы о Комплексе для зрения с АЛОЭ</h2>
+                    <div class="reviews__wrapper ">
+                        <div class="reviews__contentbox">
+                            <img class="reviews__img-wrapper" src="img/review_1.png" alt="man">
+                            <p class="reviews__name">Андрей Рогов</p>
+                            <p class="reviews__descr">Мне стало очень некомфортно за рулем, особенно в сумерки. Очень
+                                помогли капли для зрения с алое. Резкость повысили, я стал видеть лучше даже в ночное
+                                время. Прозрел ребята! Еду я такой достаточно лихо, и жена спрашивает ты чего так
+                                разогнался?)) А я говорю заправился каплями с алое! Она давай ржать! Потом был
+                                коньюктивит когда простыл, тоже помогли за 2 дня оправиться. Универсальное средство от
+                                всех глазных бед. Таурин в составе, хорошее вещество, его много где используют.</p>
+                        </div>
+                        <div class="reviews__contentbox">
+                            <img class="reviews__img-wrapper reviews__img" src="img/review_2.png" alt="woman">
+                            <p class="reviews__name">Маргарита Расщепкина</p>
+                            <p class="reviews__descr">После 35 резко начало падать зрение. Врач офтальмолог ничего
+                                плохого не увидела и сказала возрастное, хорошо, я понимаю. Но мне не комфортно, я хочу
+                                лучше видеть, и выписала очки. А мне так не идут очки, я в них выгляжу как черепаха. Я
+                                почитала что пишут люди в интернете, не раз меня их отзывы выручали, и вычитала про
+                                Комплекс для зрения с алое. Эти капли восхваляли, кто-то даже смог остановить развитие
+                                катаракты. Немедля решила приобрести и не пожалела. Капли накапливаются, т.е. это не та
+                                история когда заканчиваешь капать и эффекта больше нет. Они действительно лечат,
+                                положительно влияют на здоровье глаз и улучшают резкость зрения на продолжительное
+                                время. Больше 2 месяцев как не капаю и эффект сохраняется, реально улучшают зрение!</p>
+                        </div>
+                        <div class="reviews__contentbox">
+                            <img class="reviews__img-wrapper" src="img/review_3.png" alt="man">
+                            <p class="reviews__name">Влад Козинцев</p>
+                            <p class="reviews__descr">У меня со школьных лет прогрессировала близорукость, после школы
+                                как-то нормализовалось, немного подзабыл. Проверяли, на одну диоптрию зрение поднялось.
+                                Позже лет в 18, пожаловался на песок в глазах, всему виной компьютер. Заработал
+                                хронический синдром сухого глаза. Мне рекомендовали курсом 2-3 раза в год капать капли
+                                для зрения с алое. Смазывает хорошо, ощущение что глаз может крутиться на 360, шутка!)
+                                Приемлемая цена - качество огонь!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="reviews__mobile">
+            <div class="container">
+                <div class="reviews__inner">
+                    <h2 class="title">Отзывы о Комплексе для зрения с АЛОЭ</h2>
+                    <div class="swiper reviews__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="reviews__contentbox">
+                                    <img class="reviews__img-wrapper" src="img/review_1.png" alt="man">
+                                    <p class="reviews__name">Андрей Рогов</p>
+                                    <p class="reviews__descr">Мне стало очень некомфортно за рулем, особенно в сумерки.
+                                        Очень помогли капли для зрения с алое. Резкость повысили, я стал видеть лучше
+                                        даже в ночное время. Прозрел ребята! Еду я такой достаточно лихо, и жена
+                                        спрашивает ты чего так разогнался?)) А я говорю заправился каплями с алое! Она
+                                        давай ржать! Потом был коньюктивит когда простыл, тоже помогли за 2 дня
+                                        оправиться. Универсальное средство от всех глазных бед. Таурин в составе,
+                                        хорошее вещество, его много где используют.</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__contentbox">
+                                    <img class="reviews__img-wrapper reviews__img" src="img/review_2.png" alt="woman">
+                                    <p class="reviews__name">Маргарита Расщепкина</p>
+                                    <p class="reviews__descr">После 35 резко начало падать зрение. Врач офтальмолог
+                                        ничего плохого не увидела и сказала возрастное, хорошо, я понимаю. Но мне не
+                                        комфортно, я хочу лучше видеть, и выписала очки. А мне так не идут очки, я в них
+                                        выгляжу как черепаха. Я почитала что пишут люди в интернете, не раз меня их
+                                        отзывы выручали, и вычитала про Комплекс для зрения с алое. Эти капли
+                                        восхваляли, кто-то даже смог остановить развитие катаракты. Немедля решила
+                                        приобрести и не пожалела. Капли накапливаются, т.е. это не та история когда
+                                        заканчиваешь капать и эффекта больше нет. Они действительно лечат, положительно
+                                        влияют на здоровье глаз и улучшают резкость зрения на продолжительное время.
+                                        Больше 2 месяцев как не капаю и эффект сохраняется, реально улучшают зрение!</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__contentbox">
+                                    <img class="reviews__img-wrapper" src="img/review_3.png" alt="man">
+                                    <p class="reviews__name">Влад Козинцев</p>
+                                    <p class="reviews__descr">У меня со школьных лет прогрессировала близорукость, после
+                                        школы как-то нормализовалось, немного подзабыл. Проверяли, на одну диоптрию
+                                        зрение поднялось. Позже лет в 18, пожаловался на песок в глазах, всему виной
+                                        компьютер. Заработал хронический синдром сухого глаза. Мне рекомендовали курсом
+                                        2-3 раза в год капать капли для зрения с алое. Смазывает хорошо, ощущение что
+                                        глаз может крутиться на 360, шутка!) Приемлемая цена - качество огонь!</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <img class="arrow__reviews-prev" src="img/arrow.svg" alt="arrow">
+                        <img class="arrow__reviews-next" src="img/arrow.svg" alt="arrow">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="container">
+                <div class="header__bot">
+                    <div class="header__left">
+                        <div class="header__description flex">
+                            <img class="header__img-star" src="img/star.svg" alt="star">
+                            <p class="header__description-text">Одобрен <span
+                                    class="header__description-span">практикующими
+                                    офтальмологами России</span></p>
+                        </div>
+                        <h1 class="header__title">Комплекс <br />
+                            для зрения с <span>АЛОЭ</span></h1>
+                        <p class="undertitle header__undertitle">Интенсивная поддержкаG зрения Хорошее зрение возможно
+                            без операции</p>
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <img src="img/done.png" alt="">
+                                <p>Cпособствует повышению остроты зрения</p>
+                            </li>
+                            <li class="header__item">
+                                <img src="img/done.png" alt="">
+                                <p>Укрепляет капилляры и стенки сосудов</p>
+                            </li>
+                            <li class="header__item">
+                                <img src="img/done.png" alt="">
+                                <p>Увлажняет склеру при синдроме сухого глаза</p>
+                            </li>
+                            <li class="header__item">
+                                <source srcset="img/done.webp" type="image/webp"><img src="img/done.png" alt="">
+                                <p>Противостоит помутнению хрусталика</p>
+                            </li>
+                            <li class="header__item">
+                                <img src="img/done.png" alt="">
+                                <p>Показан для комплексного лечения вирусных и бактериальных коньюктивитов</p>
+                            </li>
+                            <li class="header__item">
+                                <img src="img/done.png" alt="">
+                                <p>Подходит для профилактикии и борьбы с офтальмологическими недугами</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__right">
+                        <img class="header__img-prod" src="img/product.png" alt="product">
+                        <img class="header__img-eye" src="img/header_eye.png" alt="eye">
+                        <form class="form" action="#">
+                            <p class="form__text">Оставьте заявку, чтобы получить <span class="form__span">консультацию
+                                    врача офтальмолога </span></p>
+                            <select class="form__select" name="" id="" placeholder="Страна">
+
+                            </select>
+                            <input class="form__input" type="text" placeholder="Ваше имя">
+                            <input class="form__input" type="tel" placeholder="Ваш номер телефоны">
+                            <button class="form__btn">Отправить</button>
+                            <p class="form__quantity">На (вчерашняя дата)<br>осталось 23 комплекса</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="header__top">
+                <div class="header__top-inner flex">
+                    <img class="header__logo" src="img/logo.svg" alt="logo">
+                    <div class="menu__desktop">
+                        <nav class="menu">
+                            <ul class="menu__list flex">
+                                <li class="menu__item"><a href="#" class="menu__link">Комплекс для зрения </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Компоненты </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Офтальмологи о комплексе </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Способ применения</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="menu__mobile">
+                        <div class="menu__burger">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <nav class="menu">
+                            <ul class="menu__list flex">
+                                <li class="menu__item"><a href="#" class="menu__link">Комплекс для зрения </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Компоненты </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Офтальмологи о комплексе </a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Способ применения</a></li>
+                                <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <img class="footer__mobile-logo" src="img/logo.svg" alt="logo">
+            <div class="copyright">
+                <p>2023 год. Opti Duo Все права защищены</p>
+            </div>
+        </footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230426004905"></script>
+    <script src="js/app.min.js?_v=20230426004905"></script>
+</body>
+
+</html>
