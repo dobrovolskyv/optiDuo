@@ -805,7 +805,7 @@ body {
   .header__bot {
     flex-direction: column;
     text-align: center;
-    margin: 50 auto 0;
+    margin: 40px auto 0;
   }
 
   .header__left {
