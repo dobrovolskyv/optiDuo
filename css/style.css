@@ -1330,11 +1330,11 @@ body {
   }
 
   .reviews__mobile .reviews__contentbox .reviews__img {
-    transform: translate(-76px, -373%);
+    transform: translate(-76px, -275%);
   }
 
   .reviews__img-wrapper {
-    transform: translate(-76px, -254%);
+    transform: translate(-76px, -220%);
   }
 
   .arrow__reviews-prev {
