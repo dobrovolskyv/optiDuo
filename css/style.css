@@ -1160,7 +1160,9 @@ body {
 }
 
 @media (max-width: 520px) {
-  
+  .header__bot {
+    margin-top: 40px;
+  }
   .header__top::after{
     width: 102%;
   }
@@ -1292,7 +1294,7 @@ body {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   
   .header__top::after{
     width: 110%;
